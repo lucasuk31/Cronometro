@@ -1,7 +1,6 @@
 let sec = 0;
 let min = 0;
 let hour = 0;
-let interval;
 
 function zero(digit) {
     if (digit < 10) {
