@@ -24,7 +24,7 @@ function stop() {
     sec = 0;
     min = 0;
     hour = 0;
-    document.querySelector('#timer').innerText = '00:00:00';
+    document.querySelector('#timer').innerHTML = '00:00:00';
 }
 
 function watch() {
@@ -38,5 +38,5 @@ function watch() {
         }
     } 
 
-    document.querySelector('#timer').innerText = zero(hour) + ':' + zero(min) + ':' + zero(sec);
+    document.querySelector('#timer').innerHTML = zero(hour) + ':' + zero(min) + ':' + zero(sec);
 }
